@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/sytle.css">
     <title>Pizza_ReNa</title>
-</head>
+</head >
 <body>
 
     <ul>
@@ -17,7 +17,7 @@
         <li><a class="linktree" href="kontakt.php">Karriere</a></li>
     </ul>
         <h1>Das sind unsere Beliebtesten Pizzen</h1>
-        
+
         
         
 </body>
