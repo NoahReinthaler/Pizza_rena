@@ -11,17 +11,30 @@
 </head >
 <body class="background">
 
-    <ul class="banner">
-        <li><a class="linktree" href="index.php">Home</a></li>
-        <li><a class="linktree" href="menue.php">Menü</a></li>
-        <li><a class="linktree" href="karriere.php">Karriere</a></li>
-        <li><a class="linktree" href="ueberuns.php">Über uns</a></li>
-        <li><a class="linktree" href="kontakt.php">Karriere</a></li>
-    </ul>
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+          <a class="nav-link text-light" href="menue.html">Menü</a>
+          <a class="nav-link text-light" href="kontakt.html">Kontakt</a>
+          <a class="nav-link text-light" href="karriere.html">Karriere</a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-        <h1 class="text-light text-center">Das sind unsere beliebtesten Pizzen</h1>
-        
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+<br>
+
+    <h1 class="text-light text-center">Das sind unsere beliebtesten Pizzen</h1>
+
+<br>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -29,24 +42,24 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../Images/Pizzen/Margherita.jpg" class="d-block w-100" alt="Bild von Margherita">
-              <div class="carousel-caption d-none d-md-block text-dark text-">
-                <h5>Margherita</h5>
-                <p>Zutaten: Tomaten, Käse, Oregano | <a href="menue.html">Mehr Infos</a></p>
+              <img src="../Images/Pizzen/Margherita.jpg" class="d-block w-99 rounded mx-auto" alt="Bild von Margherita">
+              <div class="carousel-caption d-none d-md-block text-dark text-bg-light">
+                <h5>Pizza Margherita</h5>
+                <p>Zutaten: Tomaten, Käse, Oregano | <a href="menue.html" class="text-decoration-underline text-danger">Mehr Infos</a></p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="../Images/test_2.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+              <img src="../Images/Pizzen/Salami.jpeg" class="d-block w-99 rounded mx-auto" alt="Bild von Salami">
+              <div class="carousel-caption d-none d-md-block text-dark text-bg-light">
+                <h5>Pizza Salami</h5>
+                <p>Zutaten: Tomaten, Käse, Oregano, Salami | <a href="menue.html" class="text-decoration-underline text-danger">Mehr Info</a></p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="../Images/test_3.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+              <img src="../Images/Pizzen/Pepperoni.jpeg" class="d-block w-99 rounded mx-auto" alt="Bild von Pepperoni">
+              <div class="carousel-caption d-none d-md-block text-dark text-bg-light">
+                <h5>Pepperoni</h5>
+                <p>Zutaten: Tomaten, Käse, Oregano, Salami</p>
               </div>
             </div>
           </div>
@@ -58,6 +71,23 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+        </div>
+
+        <br>
+        <br>
+
+        <hr class="bg-black border-3 border-top border-light">
+
+        <br>
+        
+        <div class="bs-docs-section text-center text-light">
+          <h1 id="kontakt">Kontaktinformationen</h1>
+          <address>
+            <strong>Jakob Natschläger und Noah Reinthaler</strong><br>
+            <abbr title="Telefonnummer">Tel.: </abbr> +49 1573 0056780<br>
+            <abbr title="Email-Adresse">Email: </abbr> <a href="mailto:jakob.natschlaeger@tfs-haslach.at">jakob.natschlaeger@tfs-haslach.at</a>
+            <p><a href="ueberuns">Mehr Informationen zu uns</a></p>
+          </address>
         </div>
 
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
