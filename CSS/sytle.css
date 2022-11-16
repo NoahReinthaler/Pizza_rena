@@ -1,12 +1,36 @@
 .background{
-    background: url(../Images/background.jpg) no-repeat center center fixed;
+    background: url(../Images/Hintergrund/main_background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.linktree{
-    color: lightblue;
+.topnav {
+    overflow: hidden;
+}
+  
+.topnav a {
+ float: left;
+ display: block;
+ color: #e2d3d3;
+ text-align: left;
+ padding: 10px 3.2px;
+ font-size: 17px;
 }
 
+.topnav a:hover {
+background-color: #e6e6df;  
+}
+
+.datenschutz{
+    text-align: left;
+}
+
+.kontaktinfo{
+    text-align: center;
+    
+}
+
+
+    
