@@ -31,6 +31,25 @@ background-color: #e6e6df;
     text-align: center;
     
 }
+#myTopnav a.nav-link{
+    margin: 0px;
+
+}
+#myTopnav{
+    margin-top: 0.5em;
+}
 
 
+pp{
+    margin: 10px ;
+}
+
+.text_infront{
+    position: absolute; top: 85%;
+        left: 50%;
+        transform: translate(-50%, -85%);
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+}
     
