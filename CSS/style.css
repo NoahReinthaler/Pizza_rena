@@ -36,7 +36,7 @@ background-color: #e6e6df;
 
 }
 #myTopnav{
-    margin-top: 0.5em;
+    margin-top: 0.46em;
 }
 
 
@@ -52,4 +52,13 @@ pp{
         padding: 5px;
         border-radius: 5px;
 }
-    
+
+.menue_img{
+    margin-top: 15px;
+    margin-left: 21.5px;
+    border-radius: 5px;
+}
+.td-form{
+    position: relative; 
+    text-align: center;
+}
