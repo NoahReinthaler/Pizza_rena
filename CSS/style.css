@@ -20,7 +20,8 @@
 }
 
 .topnav a:hover {
-background-color: #e6e6df;  
+background-color: #e6e6df;
+border-radius: 5px;  
 }
 
 .datenschutz{
@@ -37,11 +38,6 @@ background-color: #e6e6df;
 }
 #myTopnav{
     margin-top: 0.46em;
-}
-
-
-pp{
-    margin: 10px ;
 }
 
 .text_infront{
