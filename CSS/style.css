@@ -5,6 +5,14 @@
     background-size: cover;
     -o-background-size: cover;
 }
+.info_background{
+    background: url(../Images/Hintergrund/info_background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 .topnav {
     overflow: hidden;
@@ -58,4 +66,17 @@ border-radius: 5px;
 .td-form{
     position: relative; 
     text-align: center;
+}
+
+.pizza_info_h1{
+    background: url(../Images/Pizzen/Infos/background_h1.jpg) no-repeat center center fixed;
+    background-size: 2900px;
+    border-radius: 5px;
+    position: absolute; top: 15%;
+    left: 50%;
+        transform: translate(-50%, -85%);
+    text-align: center;
+}
+.pizza_info_zutaten{
+    margin-top: 90px;
 }
