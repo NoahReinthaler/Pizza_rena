@@ -1,3 +1,4 @@
+/*Hintergründe*/
 .background{
     background: url(../Images/Hintergrund/main_background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -13,7 +14,7 @@
     -o-background-size: cover;
 }
 
-
+/*Navigationsleiste*/
 .topnav {
     overflow: hidden;
 }
@@ -32,14 +33,6 @@ background-color: #e6e6df;
 border-radius: 5px;  
 }
 
-.datenschutz{
-    text-align: left;
-}
-
-.kontaktinfo{
-    text-align: center;
-    
-}
 #myTopnav a.nav-link{
     margin: 0px;
 
@@ -48,6 +41,16 @@ border-radius: 5px;
     margin-top: 0.46em;
 }
 
+/*Impressum*/
+.datenschutz{
+    text-align: left;
+}
+
+.kontaktinfo{
+    text-align: center;
+    
+}
+/*Menü*/
 .text_infront{
     position: absolute; top: 85%;
         left: 50%;
@@ -80,6 +83,7 @@ border-radius: 5px;
 .pizza_info_zutaten{
     margin-top: 90px;
 }
+/*Infoseite*/
 .info{
     text-decoration: none;
 }
