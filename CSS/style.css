@@ -80,3 +80,6 @@ border-radius: 5px;
 .pizza_info_zutaten{
     margin-top: 90px;
 }
+.info{
+    text-decoration: none;
+}
