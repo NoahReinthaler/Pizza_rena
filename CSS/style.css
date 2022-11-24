@@ -1,4 +1,8 @@
 /*Hintergründe*/
+*{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
 .background{
     background: url(../Images/Hintergrund/main_background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -61,10 +65,8 @@ border-radius: 5px;
 }
 
 .menue_img{
-    margin-top: 15px;
-    margin-left: 21.5px;
+    margin: 15px 12px 10px 12px;
     border-radius: 5px;
-    margin-bottom: 10px;
 }
 .td-form{
     position: relative; 
@@ -83,6 +85,16 @@ border-radius: 5px;
 .pizza_info_zutaten{
     margin-top: 90px;
 }
+
+.images > tbody > tr{
+    display:flex !important;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.marg{
+    margin-top: 85px; /*Abstand zur Nav*/
+}
+
 /*Infoseite*/
 .info{
     text-decoration: none;
