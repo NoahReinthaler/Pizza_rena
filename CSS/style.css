@@ -1,17 +1,23 @@
-/*Hintergründe*/
+/*Scrollbar*/
 *{
-    scrollbar-width: none;
     -ms-overflow-style: none;
+    scrollbar-width: none; /*Firefox*/
 }
+*::-webkit-scrollbar { /*Chrome*/
+    display: none;
+  }
+
+
+/*Hintergründe*/
 .background{
-    background: url(../Images/Hintergrund/main_background.jpg) no-repeat center center fixed;
+    background: url(/Images/Hintergrund/main_background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 .info_background{
-    background: url(../Images/Hintergrund/info_background.jpg) no-repeat center center fixed;
+    background: url(../Images/Hintergrund/bg_3.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -64,6 +70,10 @@ border-radius: 5px;
         border-radius: 5px;
 }
 
+.td-form:hover{
+    transform: scale(1.1);
+   }
+
 .menue_img{
     margin: 15px 12px 10px 12px;
     border-radius: 5px;
@@ -74,16 +84,31 @@ border-radius: 5px;
 }
 
 .pizza_info_h1{
-    background: url(../Images/Pizzen/Infos/background_h1.jpg) no-repeat center center fixed;
-    background-size: 2900px;
+    font-family: berlin;
+    color: white;
     border-radius: 5px;
-    position: absolute; top: 15%;
+    position: absolute; top: 20%;
     left: 50%;
         transform: translate(-50%, -85%);
     text-align: center;
+    text-shadow: 0 0 8px black;
 }
 .pizza_info_zutaten{
-    margin-top: 90px;
+    font-family: berlin;
+    margin-top: 190px;
+
+}
+
+.info_text{
+    font-family: berlin;
+    font-size:x-large;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.info_text_ueber{
+    font-family: berlin;
+    font-size: xx-large;
 }
 
 .images > tbody > tr{
