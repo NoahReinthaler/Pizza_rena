@@ -12,7 +12,7 @@
   
   <nav class="navbar navbar-expand-lg bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand text-light" href="../index.html"><img src="/Images/Hintergrund/logo.png" alt="Logo"></a>
+      <a class="navbar-brand text-light" href="../index.html"><img src="../Images/Hintergrund/logo.png" alt="Logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
       </button>
@@ -63,8 +63,42 @@
 
   <a href="Pizzen/Info.html" class="text-left info"><ul><h4 class="text-light">Für mehr Infos auf die Bilder klicken*</h4></ul></a>
 
+<!--Grobes Konzept-->
   <h1 class="text-center pizza_conf">Erstellen Sie Ihre eigenen Pizzen</h1>
-    <a href="../php/ownpizza.php">Klicken Sie hier</a>
+    <form action="../php/ownpizza.php" method="post">
+
+      <!--Größe-->
+        <input type="radio" name="wohnen" id="Einfamilienhaus" value="Einfamilienhaus">
+        <label for="Einfamilienhaus">Einfamilienhaus</label>
+        <input type="radio" name="wohnen" id="Eigentumswohnung" value="Eigentumswohnung">
+        <label for="Eigentumswohnung">Eigentumswohnung</label>
+        <input type="radio" name="wohnen" id="Mehrfamilienhaus" value="Mehrfamilienhaus">
+        <label for="Mehrfamilienhaus">Mehrfamilienhaus</label>
+        </p>
+
+    <!--Wurst-->
+        <input type="checkbox" name="" id="Dokumentationen" value="Dokumentationen">
+        <label for="Dokumentationen">Dokumentationen</label>
+        <input type="checkbox" name="" id="Nachrichten" value="Nachrichten">
+        <label for="Nachrichten">Nachrichten</label>
+        <input type="checkbox" name="" id="" value="spielfilme">
+        <label for="spielfilme">Spielfilme</label></p>
+
+    <!--Käse-->
+      <label for="cheese">
+        <select name="cheese" size="5">
+          <option>Heino</option>
+          <option>Michael Jackson</option>
+          <option>Tom Waits</option>
+          <option>Nina Hagen</option>
+          <option>Marianne Rosenberg</option>
+        </select>
+      </label>
+<br>
+        <input type="submit" name="senden" value="Senden">
+        <input type="reset" name="reset" value="Zurücksetzen">
+    </form>
+
 
 
 
