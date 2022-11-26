@@ -119,7 +119,10 @@ border-radius: 5px;
 .marg{
     margin-top: 85px; /*Abstand zur Nav*/
 }
-
+/*Pizza ersteller*/
+.pizza_conf{
+    color: aliceblue;
+}
 /*Infoseite*/
 .info{
     text-decoration: none;
