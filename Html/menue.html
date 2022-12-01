@@ -68,12 +68,10 @@
     <form action="../php/ownpizza.php" method="post">
 
       <!--Größe-->
-        <input type="radio" name="wohnen" id="Einfamilienhaus" value="Einfamilienhaus">
-        <label for="Einfamilienhaus">Einfamilienhaus</label>
-        <input type="radio" name="wohnen" id="Eigentumswohnung" value="Eigentumswohnung">
-        <label for="Eigentumswohnung">Eigentumswohnung</label>
-        <input type="radio" name="wohnen" id="Mehrfamilienhaus" value="Mehrfamilienhaus">
-        <label for="Mehrfamilienhaus">Mehrfamilienhaus</label>
+        <input type="radio" name="small" id="small" value="small">
+        <label for="small">kleine Pizza</label>
+        <input type="radio" name="normal" id="normal" value="normal">
+        <label for="normal">Normale Pizza</label>
         </p>
 
     <!--Wurst-->
@@ -86,7 +84,7 @@
 
     <!--Käse-->
       <label for="cheese">
-        <select name="cheese" size="5">
+        <select name="cheese" id="cheese">
           <option>Heino</option>
           <option>Michael Jackson</option>
           <option>Tom Waits</option>
