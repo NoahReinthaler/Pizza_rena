@@ -23,6 +23,7 @@
           <a class="nav-link" href="menue.html">Menü</a>
           <a class="nav-link" href="kontakt.html">Kontakt</a>
           <a class="nav-link" href="karriere.html">Karriere</a>
+          <a class="nav-link" href="bestellung.html">Bestellseite</a>
        
         </div>
       </div>
@@ -67,33 +68,53 @@
   <h1 class="text-center pizza_conf">Erstellen Sie Ihre eigenen Pizzen</h1>
     <form action="../php/ownpizza.php" method="post">
 
-      <!--Größe-->
-        <input type="radio" name="small" id="small" value="small">
+        <h2>Größe</h2>
+        <input type="radio" name="size" id="small" value="small">
         <label for="small">kleine Pizza</label>
-        <input type="radio" name="normal" id="normal" value="normal">
+        <input type="radio" name="size" id="normal" value="normal">
         <label for="normal">Normale Pizza</label>
         </p>
 
-    <!--Wurst-->
-        <input type="checkbox" name="" id="Dokumentationen" value="Dokumentationen">
-        <label for="Dokumentationen">Dokumentationen</label>
-        <input type="checkbox" name="" id="Nachrichten" value="Nachrichten">
-        <label for="Nachrichten">Nachrichten</label>
-        <input type="checkbox" name="" id="" value="spielfilme">
-        <label for="spielfilme">Spielfilme</label></p>
+        <h2>Wurst</h2>
+        <input type="checkbox" name="sausage" id="salammi" value="salammi">
+        <label for="salammi">Salami</label>
+        <input type="checkbox" name="sausage" id="schinnken" value="schinnken">
+        <label for="schinnken">Schinken</label>
+        <input type="checkbox" name="sausage" id="specki" value="specki">
+        <label for="specki">Speck</label></p>
 
-    <!--Käse-->
-      <label for="cheese">
-        <select name="cheese" id="cheese">
-          <option>Heino</option>
-          <option>Michael Jackson</option>
-          <option>Tom Waits</option>
-          <option>Nina Hagen</option>
-          <option>Marianne Rosenberg</option>
-        </select>
-      </label>
+        <h2>Käse</h2>
+        <input type="checkbox" name="kaese" id="gouda" value="gouda">
+        <label for="gouda">Gouda</label>
+        <input type="checkbox" name="kaese" id="mozzarella" value="mozzarella">
+        <label for="mozzarella">Mozzarella</label>
+        <input type="checkbox" name="kaese" id="gorgonzola" value="gorgonzola">
+        <label for="gorgonzola">Gorgonzola</label></p>
+
+        <h2>Extra Toppings</h2>
+        <input type="checkbox" name="extra" id="salami" value="salami">
+        <label for="salami">Salami</label>
+        <input type="checkbox" name="extra" id="schinken" value="schinken">
+        <label for="schinken">Schinken</label>
+        <input type="checkbox" name="extra" id="speck" value="speck">
+        <label for="speck">Speck</label>
+        <input type="checkbox" name="extra" id="salami" value="salami">
+        <label for="salami">Salami</label>
+        <input type="checkbox" name="extra" id="schinken" value="schinken">
+        <label for="schinken">Schinken</label>
+        <br>
+        <input type="checkbox" name="extra" id="speck" value="speck">
+        <label for="speck">Speck</label>
+        <input type="checkbox" name="extra" id="salami" value="salami">
+        <label for="salami">Salami</label>
+        <input type="checkbox" name="extra" id="schinken" value="schinken">
+        <label for="schinken">Schinken</label>
+        <input type="checkbox" name="extra" id="speck" value="speck">
+        <label for="speck">Speck</label>
+        <input type="checkbox" name="extra" id="speck" value="speck">
+        <label for="speck">Speck</label>
 <br>
-        <input type="submit" name="senden" value="Senden">
+        <input type="submit" name="senden" value="Fertig">
         <input type="reset" name="reset" value="Zurücksetzen">
     </form>
 
