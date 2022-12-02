@@ -1,19 +1,113 @@
-<h1>mit CSS gestaltetes select-Menu</h1>
-<form name="Testform">
-	<label for="pizza">Bitte wählen Sie Ihre Pizza-Bestellung:</label>
-	<select name="Pizza" id="pizza"
-	size="1">
-		<option value="P101">🍕 Pizza Margherita</option>
-		<option value="P102">🔥 Pizza Davoli</option>
-		<option value="P103">Pizza Mare</option>
-		<option value="P104">Pizza Tonno</option>
-		<option value="P105">🇲🇽 Pizza Mexicana</option>
-		<option value="P106">Pizza Regina</option>
-		<option value="P107">Pizza della Casa</option>
-		<option value="P108">Pizza Calzone</option>
-		<option value="P109">Pizza con tutto</option>
-	</select>
-</form>
-<p>
-	<output> </output>
-</p>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<link href="../style.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Bestellformular - Pizza Rena</title>
+</head>
+
+<body id="bb">
+
+	<h1>Pizza Rena - Ihre Bestellung:</h1>
+
+	<ul>
+		<li><a href="../index.html">Home</a></li>
+	</ul>
+
+	<table id="bf">
+		<tbody>
+			<form action="mailto:jakob.natschlaeger@tfs-haslach.at" method="POST">
+				<tr>
+					<td>Bitte geben sie Ihre Telefonnummer an:</td>
+					<td><input type="tel" name="telefonnummer" placeholder="Telefonnummer" required></td>
+				</tr>
+                
+				<tr>
+                    <td colspan="2">
+                        <label for="abholung">Abholung</label><input type="radio" name="bestell-möglichkeiten" value="Abholung" id="abholung">
+                        <label for="lieferung">Lieferung (Ab 8 Pizzen kostenlos, sonst 0,50€ pro km)</label><input type="radio" name="bestell-möglichkeiten" value="Lieferung" id="lieferung">
+                    </td>
+                </tr>
+				
+				<tr>
+					<td><label for="pizza">Pizza</label></td>
+					
+					<td>
+								<input type="checkbox" name="pizzen" value="Acciughe"> Acciughe<br>
+								<input type="checkbox" name="pizzen" value="Al Funghi"> Al Funghi<br>
+								<input type="checkbox" name="pizzen" value="Bianca"> Bianca<br>
+								<input type="checkbox" name="pizzen" value="Calzone"> Calzone<br>
+								<input type="checkbox" name="pizzen" value="Caprese"> Caprese<br>
+								<input type="checkbox" name="pizzen" value="Capricciosa"> Capricciosa<br>
+								<input type="checkbox" name="pizzen" value="Diavolo"> Diavolo<br>
+								<input type="checkbox" name="pizzen" value="Frutti di Mare"> Frutti di Mare</Marquee><br>
+								<input type="checkbox" name="pizzen" value="Gamberetti"> Gamberetti<br>
+								<input type="checkbox" name="pizzen" value="Hawaii"> Hawaii<br>
+								<input type="checkbox" name="pizzen" value="Margherita"> Margherita<br>
+								<input type="checkbox" name="pizzen" value="Mozzarella"> Mozzarella<br>
+								<input type="checkbox" name="pizzen" value="Pepperoni"> Pepperoni<br>
+								<input type="checkbox" name="pizzen" value="Prosciutto"> Prosciutto<br>
+								<input type="checkbox" name="pizzen" value="Quattro Formaggi"> Quattro Formaggi<br>
+								<input type="checkbox" name="pizzen" value="Salami"> Salami<br>
+								<input type="checkbox" name="pizzen" value="Schinken"> Schinken<br>
+								<input type="checkbox" name="pizzen" value="Spinaci"> Spinaci<br>
+								<input type="checkbox" name="pizzen" value="Tonno"> Tonno<br>
+								<input type="checkbox" name="pizzen" value="Vegetariana"> Vegetariana<br>
+					</td>
+
+				</tr>
+
+				<tr>
+					<td><label for="kugel">Kugel</label></td>
+
+					<td>
+
+						<select name="kugel" id="kugel" size="5" multiple required>
+
+							<optgroup label="Kugel">
+
+								<option>Schokolade</option>
+
+							</optgroup>
+
+						</select>
+
+					</td>
+
+				</tr>
+
+				<tr>
+
+					<td><label for="topping">Topping</label></td>
+
+					<td>
+
+						<select name="topping" id="topping" size="4" multiple>
+
+							<optgroup label="Topping">
+
+								<option>Karamell</option>
+
+							</optgroup>
+
+						</select>
+
+					</td>
+
+				</tr>
+
+				<tr>
+
+					<td><button type="submit">Bestellen</button></td>
+
+				</tr>
+
+			</form>
+
+		</tbody>
+
+	</table>
+
+</body>
+
+</html>
