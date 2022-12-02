@@ -154,6 +154,14 @@ border-radius: 5px;
     border-radius: 8px;
     margin-left: 270px;
 }
+.form_text{
+    color: white;
+    text-align: center;
+}
+.form_text_checkbox{
+    color: white;
+    text-align: center;
+}
 
 /*Infoseite*/
 .info{
@@ -228,3 +236,11 @@ output {
 	font-size: 2em;
 	color: #c32e04;
 }
+/*Google Maps einbindung*/
+.google_maps{
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    
+}
+
