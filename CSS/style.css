@@ -120,6 +120,11 @@ border-radius: 5px;
     justify-content: center;
 }
 
+.text_info{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
 /*Pizza ersteller*/
 .pizza_conf{
     color: aliceblue;
@@ -141,11 +146,11 @@ border-radius: 5px;
     outline: #222;
     
 }
-.form_submit{
+.form_reset{
     border-radius: 8px;
 }
 
-.form_reset{
+.form_submit{
     border-radius: 8px;
     margin-left: 270px;
 }

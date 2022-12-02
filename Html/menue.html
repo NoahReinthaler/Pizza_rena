@@ -63,7 +63,7 @@
   </table>
 
 
-  <a href="Pizzen/Info.html" class="text-left info"><ul><h4 class="text-light">Für mehr Infos auf die Bilder klicken*</h4></ul></a>
+  <a href="Pizzen/Info.html" class="text-left info"><ul><h4 class="text-light text_info">Für mehr Infos auf die Bilder klicken*</h4></ul></a>
 
 
   <h1 class="text-center pizza_conf">Erstellen Sie Ihre eigenen Pizzen</h1>
@@ -78,55 +78,55 @@
         
 
         <h2 class="form_h">Wurst</h2>
-        <input type="checkbox" name="sausage" id="salammi" value="salammi">
+        <input type="checkbox" name="sausage[]" id="salammi" value="salammi">
         <label for="salammi" class="form_label">Salami</label>
-        <input type="checkbox" name="sausage" id="schinnken" value="schinnken">
+        <input type="checkbox" name="sausage[]" id="schinnken" value="schinnken">
         <label for="schinnken" class="form_label">Schinken</label>
-        <input type="checkbox" name="sausage" id="specki" value="specki">
+        <input type="checkbox" name="sausage[]" id="specki" value="specki">
         <label for="specki" class="form_label">Speck</label>
-        <input type="checkbox" name="sausage" id="kebapfleisch" value="kebapfleisch">
+        <input type="checkbox" name="sausage[]" id="kebapfleisch" value="kebapfleisch">
         <label for="kebapfleisch" class="form_label">Kebapfleisch</label>
 
         <h2 class="form_h">Käse</h2>
-        <input type="checkbox" name="kaese" id="gouda" value="gouda">
+        <input type="checkbox" name="kaese[]" id="gouda" value="gouda">
         <label for="gouda" class="form_label">Gouda</label>
-        <input type="checkbox" name="kaese" id="mozzarella" value="mozzarella">
+        <input type="checkbox" name="kaese[]" id="mozzarella" value="mozzarella">
         <label for="mozzarella" class="form_label">Mozzarella</label>
-        <input type="checkbox" name="kaese" id="gorgonzola" value="gorgonzola">
+        <input type="checkbox" name="kaese[]" id="gorgonzola" value="gorgonzola">
         <label for="gorgonzola" class="form_label">Gorgonzola</label>
-        <input type="checkbox" name="kaese" id="blauschimmelkaese" value="blauschimmelkaese">
+        <input type="checkbox" name="kaese[]" id="blauschimmelkaese" value="blauschimmelkaese">
         <label for="blauschimmelkaese" class="form_label">Blauschimmelkäse</label>
 
         <h2 class="form_h">Extra Toppings</h2>
-        <input type="checkbox" name="extra" id="shrimps" value="shrimps">
+        <input type="checkbox" name="extra[]" id="shrimps" value="shrimps">
         <label for="shrimps" class="form_label">Shrimps</label>
-        <input type="checkbox" name="extra" id="sardellen" value="sardellen">
+        <input type="checkbox" name="extra[]" id="sardellen" value="sardellen">
         <label for="sardellen" class="form_label">Sardellen</label>
-        <input type="checkbox" name="extra" id="trueffel" value="trueffel">
+        <input type="checkbox" name="extra[]" id="trueffel" value="trueffel">
         <label for="trueffel" class="form_label">Trüffel</label>
-        <input type="checkbox" name="extra" id="champignons" value="champignons">
+        <input type="checkbox" name="extra[]" id="champignons" value="champignons">
         <label for="champignons" class="form_label">Champignons</label>
-        <input type="checkbox" name="extra" id="thunfisch" value="thunfisch">
+        <input type="checkbox" name="extra[]" id="thunfisch" value="thunfisch">
         <label for="thunfisch" class="form_label">Thunfisch</label>
         <br>
-        <input type="checkbox" name="mais" id="mais" value="mais">
+        <input type="checkbox" name="extra[]" id="mais" value="mais">
         <label for="mais" class="form_label">Mais</label>
-        <input type="checkbox" name="paprika" id="paprika" value="paprika">
+        <input type="checkbox" name="extra[]" id="paprika" value="paprika">
         <label for="paprika" class="form_label">Paprika</label>
-        <input type="checkbox" name="extra" id="spinat" value="spinat">
+        <input type="checkbox" name="extra[]" id="spinat" value="spinat">
         <label for="spinat" class="form_label">Spinat</label>
-        <input type="checkbox" name="extra" id="chilli" value="chilli">
+        <input type="checkbox" name="extra[]" id="chilli" value="chilli">
         <label for="chilli" class="form_label">Chilli</label>
-        <input type="checkbox" name="extra" id="artischocken" value="artischocken">
+        <input type="checkbox" name="extra[]" id="artischocken" value="artischocken">
         <label for="artischocken" class="form_label">Artischocken</label>
-        <input type="checkbox" name="extra" id="ananas" value="ananas">
+        <input type="checkbox" name="extra[]" id="ananas" value="ananas">
         <label for="ananas" class="form_label">Ananas</label>
         <br>
         <label for="anzahl" class="form_label">Geben Sie die Anzahl Ihrer Pizzen ein</label>
-        <input type="number" name="anzahl" id="anzahl">
+        <input type="number" name="anzahl" id="anzahl" required>
 <br>
-        <input type="submit" name="senden" value="Fertig" class="form_submit">
         <input type="reset" name="reset" value="Zurücksetzen" class="form_reset">
+        <input type="submit" name="senden" value="Fertig" class="form_submit">
     </form>
   </div>
 
