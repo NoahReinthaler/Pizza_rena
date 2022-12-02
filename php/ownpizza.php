@@ -9,7 +9,30 @@
     <title>Pizza Konfigurator Ausgabe</title>
 </head>
 <body class="background">
-    <h1 class="text-center text-light">Hier ist Ihre Bestellung</h1>
+
+<nav class="navbar navbar-expand-lg bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="../index.html"><img src="../Images/Hintergrund/logo.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      
+        <div class="navbar-nav topnav" id="myTopnav">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="menue.html">Menü</a>
+          <a class="nav-link" href="kontakt.html">Kontakt</a>
+          <a class="nav-link" href="karriere.html">Karriere</a>
+          <a class="nav-link" href="bestellung.html">Bestellseite</a>
+          <a class="nav-link" href="pizza_konfigurator.html">Pizza Konfigurator</a>
+       
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+    <h1 class="text-center text-light marg">Hier ist Ihre Bestellung</h1>
     <br>
     <?php
         if(isset($_POST['senden'])){
@@ -19,28 +42,28 @@
             $sausage = $_POST['sausage'];
             $size = $_POST['size'];
 
+
+            
+
                 echo "<p class='form_text'>Sie haben $anzahl Pizza/en bestellt in der Größe $size</p>";
 
-                    
-
-                echo "<p class='form_text'>Sie haben diese Käse Sorte/n ausgewählt: </p>";
+                echo "<p class='form_text'>Sie haben diese Käse Sorte/n ausgewählt: ";
                     foreach($kaese as $key => $value){
-                        echo "<nobr><p class='form_text_checkbox'> $value, </p></nobr>";
+                        echo "$value, ";
                     };
-                    
+                echo "</p>";
 
-                echo "<p class='form_text'>Sie haben diese Wurst Sorte/n ausgewählt: </p>";
+                echo "<p class='form_text'>Sie haben diese Wurst Sorte/n ausgewählt: ";
                     foreach($sausage as $key => $value){
-                        echo "<nobr><p class='form_text_checkbox'> $value, </p></nobr>";
+                        echo "$value, ";
                     };
-                    
+                echo "</p>";   
 
-                echo "<p class='form_text'>Sie haben diese extra Topping/s ausgewählt: </p>";
+                echo "<p class='form_text'>Sie haben diese extra Topping/s ausgewählt: ";
                     foreach($extra as $key => $value){
-                        echo "<nobr><p class='form_text_checkbox'> $value, </p></nobr>";
+                        echo "$value, ";
                     };
-                   
-
+                echo "</p>";
         }
     ?>
 
