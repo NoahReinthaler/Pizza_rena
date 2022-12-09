@@ -257,3 +257,9 @@ output {
 .inputte{
     border-radius: 15px;
 }
+/*Impressum*/
+.imp{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
