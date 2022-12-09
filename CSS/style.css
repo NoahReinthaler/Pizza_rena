@@ -243,4 +243,17 @@ output {
     border-radius: 35px;
     
 }
-
+/*Kontakseite*/
+.kontaktform{
+    display: flex;
+    justify-content: center;
+}
+.marge{ /*margin für email*/
+    margin-left: 79px;
+}
+.inputk{ /*abgerundete Kanten für Inputs*/
+    border-radius: 78px;
+}
+.inputte{
+    border-radius: 15px;
+}

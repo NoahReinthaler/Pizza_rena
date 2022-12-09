@@ -32,25 +32,32 @@
     </div>
 
     <h1 class="text-light text-center marg">Hier können Sie Kontakt mit uns aufnehmen</h1>
+    <br>
+<div class="kontaktform">
+  <form method="post" action="mailto:noah.reinthaler@outlook.de" enctype="text/plain">
 
+    <label for="Email"><b class="text-light marge">Email: </b></label>
+    <input type="email" id="Email" name="Email" required class="inputk"><br><br>
+ 
+    <label for="tele"><b class="text-light">Telefonnummer: </b></label>
+    <input type="number" id="tele" name="Telefonnummer"  class="inputk"><br><br>
 
-    <form method="post" action="../php/kontakt.php">
-<label for="Name"><b>Name:</b></label><br>
-<input type="text" id="Name" name="Name"><br><br>
+    <label for="Nachricht"><b class="text-light">Ihre Nachricht</b></label><br>
+    <textarea id="Nachricht" name="Nachricht" rows="10" cols="50"  class="inputte"></textarea> <br><br>
  
-<label for="Email"><b>E-Mail:</b></label><br>
-<input type="email" id="Email" name="Email" required><br><br>
- 
-<label for="Betreff"><b>Betreff:</b></label><br>
-<input type="text" id="Betreff" name="Betreff"><br><br>
- 
-<label for="Nachricht"><b>Nachricht:</b></label><br>
-<textarea id="Nachricht" name="Nachricht" rows="10" cols="50"></textarea> <br><br>
- 
-<input type="submit" name="submit">
-</form>
+    <input type="submit" name="submit">
+  </form>
+</div>
 
+<br>
+<h1 class="text-light text-center marg">Unser Restaurant</h1>
+<br>
+<p class="text-center text-light">Falls Sie Ihren Fall persönlich mit uns klären wollen, besuchen Sie uns doch gerne in unserem Restaurant!</p>
 
+<br>
+  <div class="google_maps">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2284.7951849185592!2d14.051195920280406!3d48.576450241915474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47737e0d0da7b82f%3A0x21a755352a0b2a24!2sTechnische%20Fachschule%20Haslach!5e0!3m2!1sde!2sat!4v1669979979726!5m2!1sde!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="google_maps"></iframe>
+  </div>
 
      <!--Kontaktinfos-->
   <br>
