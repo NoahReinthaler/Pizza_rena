@@ -42,9 +42,6 @@
             $sausage = $_POST['sausage'];
             $size = $_POST['size'];
 
-
-            
-
                 echo "<p class='form_text'>Sie haben $anzahl Pizza/en bestellt in der Größe $size</p>";
 
                 echo "<p class='form_text'>Sie haben diese Käse Sorte/n ausgewählt: ";
