@@ -276,5 +276,8 @@ output {
     border-radius: 9px;
 }
 .erwartungen{
-    
+    color: white;
+    display: flex;
+    justify-content: center;
+  
 }
