@@ -10,6 +10,7 @@
 </head>
 <body class="background">
   
+  
   <nav class="navbar navbar-expand-lg bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand text-light imgnav" href="../index.html"><img src="../Images/Hintergrund/logo.png" alt="Logo"></a>
@@ -64,106 +65,9 @@
 
   
 <br>
-  <h1 class="text-center pizza_conf">Hier können Sie Ihre Pizzen bestellen</h1
-    <form>
-      <div class="form-group">
-        <label>Wählen Sie Ihre Pizza aus (mehrere Möglich):</label>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="calzone" value="calzone"> <label class="form-check-label">Calzone</label>
-        </div>
-    
-        <div class="form-check"></div>
-          <input class="form-check-input" type="checkbox" name="mozzarella" value="mozzarella"> <label class="form-check-label">Mozzarella</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Hawaii" value="Hawaii"> <label class="form-check-label">Hawaii</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Caprese" value="Caprese"> <label class="form-check-label">Caprese</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Al Funghi" value="Al Funghi"> <label class="form-check-label">Al Funghi</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Quattro Formaggi" value="Quattro Formaggi"> <label class="form-check-label">Quattro Formaggi</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Prosciutto" value="Prosciutto"> <label class="form-check-label">Prosciutto</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Capricciosa" value="Capricciosa"> <label class="form-check-label">Capricciosa</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Pepperoni" value="Pepperoni"> <label class="form-check-label">Pepperoni</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Margherita" value="Margherita"> <label class="form-check-label">Margherita</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Salami" value="Salami"> <label class="form-check-label">Salami</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Schinken" value="Schinken"> <label class="form-check-label">Schinken</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Diavolo" value="Diavolo"> <label class="form-check-label">Diavolo</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Tonno" value="Tonno"> <label class="form-check-label">Tonno</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Spinaci" value="Spinaci"> <label class="form-check-label">Spinaci</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Vegetariana" value="Vegetariana"> <label class="form-check-label">Vegetariana</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Acciughe" value="Acciughe"> <label class="form-check-label">Acciughe</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Bianca" value="Bianca"> <label class="form-check-label">Bianca</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Frutti di Mare" value="Frutti di Mare"> <label class="form-check-label">Frutti di Mare</label>
-        </div>
-    
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="Gamberetti" value="Gamberetti"> <label class="form-check-label">Gamberetti</label>
-        </div>
-      </div>
-    
-      <div class="form-group">
-        <label>Anmerkungen:</label> 
-        <textarea class="form-control" name="anmerkungen" placeholder="Hier können Sie Extra Wünsche eintragen">
-    </textarea>
-      </div>
-    
-      <div class="form-group">
-        <label>Straße *</label> <input type="text" class="form-control" name="straße" placeholder="Straße" required="required">
-      </div>
-    
-      <div class="form-group">
-        <label>Postleitzahl *</label> <input type="text" class="form-control" name="plz" placeholder="Plz" required="required">
-      </div><small>Felder markiert mit * sind Pflichtfelder.</small>
-    </form>
+  
+   
+
   <h1 class="text-center pizza_conf">Erstellen Sie Ihre eigenen Pizzen</h1>
 <br>
   <div class="form_div">
@@ -222,13 +126,134 @@
         <label for="ananas" class="form_label">Ananas</label>
         <br>
         <label for="anzahl" class="form_label">Geben Sie die Anzahl Ihrer Pizzen ein</label>
-        <input type="number" name="anzahl" id="anzahl" required>
-<br>
+        <input type="number" name="anzahl" id="anzahl">
+
+
+        <br>
+        <br>
+        <h1 class="text-center pizza_conf">Bestellen Sie Ihre Pizza</h1>
+        <br>
+
+        <table>
+
+        <tr>
+          <td><input type="checkbox" name="pizzabe[]" id="Acciughe" value="Acciughe">
+          <label for="Acciughe" class="form_label">Acciughe</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+          
+          <td><input type="checkbox" name="pizzabe[]" id="Al_Funghi" value="Al_Funghi">
+          <label for="Al_Funghi" class="form_label">Al Funghi</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+        </tr>
+       
+        
+     
+        <tr>
+          <td><input type="checkbox" name="pizzabe[]" id="Bianca" value="Bianca">
+          <label for="Bianca" class="form_label">Bianca</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+          
+          <td><input type="checkbox" name="pizzabe[]" id="Calzone" value="Calzone">
+          <label for="Calzone" class="form_label">Calzone</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+        </tr>
+
+
+        <tr>
+          <td><input type="checkbox" name="pizzabe[]" id="Caprese" value="Caprese">
+          <label for="Caprese" class="form_label">Caprese</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+          
+          <td><input type="checkbox" name="pizzabe[]" id="Capricciosa" value="Capricciosa">
+          <label for="Capricciosa" class="form_label">Capricciosa</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+        </tr>
+
+
+        <tr>
+          <td><input type="checkbox" name="pizzabe[]" id="Diavolo" value="Diavolo">
+          <label for="Diavolo" class="form_label">Diavolo</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+          
+          <td><input type="checkbox" name="pizzabe[]" id="Fruttif_di_Mare" value="Fruttif_di_Mare">
+          <label for="Fruttif_di_Mare" class="form_label">Fruttif di Mare</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+        </tr>
+
+
+        <tr>
+          <td><input type="checkbox" name="pizzabe[]" id="Gamberetti" value="Gamberetti">
+          <label for="Gamberetti" class="form_label">Gamberetti</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+          
+          <td><input type="checkbox" name="pizzabe[]" id="Hawaii" value="Hawaii">
+          <label for="Hawaii" class="form_label">Hawaii</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+        </tr>
+
+
+        <tr>
+          <td><input type="checkbox" name="pizzabe[]" id="Margherita" value="Margherita">
+          <label for="Margherita" class="form_label">Margherita</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+          
+          <td><input type="checkbox" name="pizzabe[]" id="Mozzarella" value="Mozzarella">
+          <label for="Mozzarella" class="form_label">Mozzarella</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+        </tr>
+
+
+        <tr>
+          <td><input type="checkbox" name="pizzabe[]" id="Pepperoni" value="Pepperoni">
+          <label for="Pepperoni" class="form_label">Pepperoni</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+          
+          <td><input type="checkbox" name="pizzabe[]" id="Prosciutto" value="Prosciutto">
+          <label for="Prosciutto" class="form_label">Prosciutto</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+        </tr>
+
+
+        <tr>
+          <td><input type="checkbox" name="pizzabe[]" id="Quattro_Formaggi" value="Quattro_Formaggi">
+          <label for="Quattro_Formaggi" class="form_label">Quattro Formaggi</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+          
+          <td><input type="checkbox" name="pizzabe[]" id="Salami" value="Salami">
+          <label for="Salami" class="form_label">Salami</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+        </tr>
+
+
+        <tr>
+          <td><input type="checkbox" name="pizzabe[]" id="Schinken" value="Schinken">
+          <label for="Schinken" class="form_label">Schinken</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+          
+          <td ><input type="checkbox" name="pizzabe[]" id="Spinaci" value="Spinaci">
+          <label for="Spinaci" class="form_label">Spinaci</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+        </tr>
+
+
+        <tr>
+          <td><input type="checkbox" name="pizzabe[]" id="Tonno" value="Tonno">
+          <label for="Tonno" class="form_label">Tonno</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+          
+          <td><input type="checkbox" name="pizzabe[]" id="Vegetariana" value="Vegetariana">
+          <label for="Vegetariana" class="form_label">Vegetariana</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
+        </tr>
+
+
+        </table>
         <input type="reset" name="reset" value="Zurücksetzen" class="form_reset">
         <input type="submit" name="senden" value="Fertig" class="form_submit">
     </form>
   </div>
 
+ 
 
 
   <!--Kontaktinfos-->
