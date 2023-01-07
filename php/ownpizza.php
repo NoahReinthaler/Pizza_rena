@@ -41,6 +41,9 @@
             $extra = $_POST['extra'];
             $sausage = $_POST['sausage'];
             $size = $_POST['size'];
+            $bestellung = $_POST['pizzabe'];
+
+            echo"<h1>Eigens erstellte Pizzen</h1>";
 
                 echo "<p class='form_text'>Sie haben $anzahl Pizza/en bestellt in der Größe $size</p>";
 

@@ -61,7 +61,7 @@
       <td class="td-form"><a href="Pizzen/gamberetti.html"><img src="../Images/Pizzen/Menue_pizzen/gamberetti.jpeg" alt="gamberetti_450" class="menue_img"></a><p class="text_infront">Gamberetti | Garnelen Mozzarella Cherrytomaten Basilikum | 14,80€</p></td>
     </tr>
   </table>
-  <a href="Pizzen/Info.html" class="info-txt"><h2 class="info-txt">Für mehr Informationen klicken Sie auf die Bilder</h2></a>
+ 
 
   
 <br>
@@ -72,13 +72,6 @@
 <br>
   <div class="form_div">
     <form action="../php/ownpizza.php" method="post" class="pizzaconfig">
-
-        <h2 class="form_h">Größe</h2>
-        <input type="radio" name="size" id="small" value='"Klein"' required>
-        <label for="small" class="form_label">kleine Pizza</label>
-        <input type="radio" name="size" id="normal" value='"Normal"' required>
-        <label for="normal" class="form_label">Normale Pizza</label>
-        
 
         <h2 class="form_h">Wurst</h2>
         <input type="checkbox" name="sausage[]" id="salammi" value="salammi">
@@ -245,18 +238,26 @@
           <td><input type="number" name="anzahl" id="anzahl" value="Anzahl"></td>
         </tr>
 
-        <tr>
-          <td>
-            <input type="reset" value="Reset" class="form_reset">
-          </td>
-          
-          <td>
-            <input type="submit" value="Senden" class="form_submit">
-          </td>
-        </tr>
+
         </table>
-        
-        
+        <br>
+        <h2 class="form_h">Größe</h2>
+        <input type="radio" name="size" id="small" value='"Klein"' required>
+        <label for="small" class="form_label">kleine Pizza</label>
+        <input type="radio" name="size" id="normal" value='"Normal"' required>
+        <label for="normal" class="form_label">Normale Pizza</label>
+
+        <table>
+          <tr>
+            <td>
+              <input type="reset" value="Reset" class="form_reset">
+            </td>
+            
+            <td>
+              <input type="submit" value="Senden" class="form_submit">
+            </td>
+          </tr>
+        </table>
     </form>
   </div>
 
