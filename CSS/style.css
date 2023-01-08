@@ -291,3 +291,16 @@ output {
     justify-content: center;
   
 }
+/*PHP*/
+.h2_php{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+/*Bewerbung*/
+#mailto_bewerbung{
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-size: larger;
+}

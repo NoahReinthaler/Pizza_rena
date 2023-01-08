@@ -33,8 +33,7 @@
 </div>
 
     <h1 class="text-center text-light marg">Hier ist Ihre Bestellung</h1>
-    
-    <h2 class="text-center text-light marg">Eigens erstellte Pizza</h2>
+    <br>
     <?php
         if(isset($_POST['senden'])){
             $anzahl = $_POST['anzahl'];
@@ -44,23 +43,23 @@
             $size = $_POST['size'];
             
 
-                echo "<p class='form_text'>Sie haben $anzahl Pizza/en bestellt in der Größe $size</p>";
+                echo "<p class='form_text'>Sie haben $anzahl Pizza/en bestellt in der Größe $size bestellt</p>";
 
                 echo "<p class='form_text'>Sie haben diese Käse Sorte/n ausgewählt: ";
-                    foreach($kaese as $key => $value){
-                        echo "$value, ";
+                    foreach($kaese as $key => $value1){
+                        echo "$value1, ";
                     };
                 echo "</p>";
 
                 echo "<p class='form_text'>Sie haben diese Wurst Sorte/n ausgewählt: ";
-                    foreach($sausage as $key => $value){
-                        echo "$value, ";
+                    foreach($sausage as $key => $value2){
+                        echo "$value2, ";
                     };
                 echo "</p>";   
 
                 echo "<p class='form_text'>Sie haben diese extra Topping/s ausgewählt: ";
-                    foreach($extra as $key => $value){
-                        echo "$value, ";
+                    foreach($extra as $key => $value3){
+                        echo "$value3, ";
                     };
                 echo "</p>";
         }
