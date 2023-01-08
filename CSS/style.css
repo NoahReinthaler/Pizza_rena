@@ -248,6 +248,10 @@ output {
 .marg_pizza_be{
     margin-left: 40px;
 }
+.info_ersteller{
+    display: flex;
+    justify-content: center;
+}
 
 /*Google Maps einbindung*/
 .google_maps{
@@ -298,9 +302,17 @@ output {
     justify-content: center;
 }
 /*Bewerbung*/
-#mailto_bewerbung{
+.mailto_bewerbung{
+    margin-top: 65px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     color: white;
     font-size: larger;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.mailto_bewerbung_a{
+    text-decoration: none;
+}
+.hover_mail:hover{
+    font-size: 22.5px;
 }

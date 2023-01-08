@@ -9,25 +9,26 @@
     <title>Pizza Konfigurator</title>
 </head>
 <body class="background">
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand text-light" href="../index.html"><img src="../Images/Hintergrund/logo.png" alt="Logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          
-            <div class="navbar-nav topnav" id="myTopnav">
-              <a class="nav-link" href="../index.html">Home</a>
-              <a class="nav-link" href="menue.html">Menü</a>
-              <a class="nav-link" href="kontakt.html">Kontakt</a>
-              <a class="nav-link" href="karriere.html">Karriere</a>
-              <a class="nav-link" href="bestellung.html">Bestellseite</a>
-              <a class="nav-link" href="pizza_konfigurator.html">Pizza Konfigurator</a>
-           
-            </div>
-          </div>
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light imgnav" href="../index.html"><img src="../Images/Hintergrund/logo.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-light"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      
+        <div class="navbar-nav topnav" id="myTopnav">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="menue.html">Menü</a>
+          <a class="nav-link" href="kontakt.html">Kontakt</a>
+          <a class="nav-link" href="karriere.html">Karriere</a>
+          <a class="nav-link" href="pizza_konfigurator.html">Pizza Konfigurator</a>
+       
         </div>
+      </div>
+    </div>
+  </nav>
+</div>
         
       </nav>
         </div>
@@ -60,7 +61,7 @@
           <label for="mozzarella" class="form_label">Mozzarella</label>
           <input type="checkbox" name="kaese[]" id="gorgonzola" value="Gorgonzola">
           <label for="gorgonzola" class="form_label">Gorgonzola</label>
-          <input type="checkbox" name="kaese[]" id="blauschimmelkaese" value="Blauschimmelkaese">
+          <input type="checkbox" name="kaese[]" id="blauschimmelkaese" value="Blauschimmelkäse">
           <label for="blauschimmelkaese" class="form_label">Blauschimmelkäse</label>
   
           <h2 class="form_h">Extra Toppings</h2>
@@ -68,7 +69,7 @@
           <label for="shrimps" class="form_label">Shrimps</label>
           <input type="checkbox" name="extra[]" id="sardellen" value="Sardellen">
           <label for="sardellen" class="form_label">Sardellen</label>
-          <input type="checkbox" name="extra[]" id="trueffel" value="Trueffel">
+          <input type="checkbox" name="extra[]" id="trueffel" value="Trüffel">
           <label for="trueffel" class="form_label">Trüffel</label>
           <input type="checkbox" name="extra[]" id="champignons" value="Champignons">
           <label for="champignons" class="form_label">Champignons</label>
@@ -88,14 +89,22 @@
           <input type="checkbox" name="extra[]" id="ananas" value="Ananas">
           <label for="ananas" class="form_label">Ananas</label>
           <br>
-          <label for="anzahl" class="form_label">Geben Sie die Anzahl Ihrer Pizzen ein</label>
-          <input type="number" name="anzahl" id="anzahl" required>
-  <br>
+          <table>
+            <tr>
+          <td><label for="anzahl" class="form_label">Geben Sie die Anzahl Ihrer Pizzen ein:</label></td>
+          <td><input type="number" name="anzahl" id="anzahl" required></td>
+            </tr>
+            <tr>
+          <td><label for="address" class="form_label">Geben Ihre Lieferadresse ein:</label></td>
+          <td><input type="text" name="address" id="address" required></td>
+            </tr>
+          </table>
           <input type="reset" name="reset" value="Zurücksetzen" class="form_reset">
           <input type="submit" name="senden" value="Fertig" class="form_submit">
       </form>
     </div>
-    <p class="text-light">Bitte von jedem mindestens 1 auswählen</p>
+
+    <p class="text-light info_ersteller">Die Bestellung wird nicht wirklich geliefert*</p>
      <!--Kontaktinfos-->
   <br>
   <br>
